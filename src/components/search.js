@@ -22,7 +22,7 @@ export default class Search extends Component {
   submitSearch = (): void => {
     const { query } = this.state;
     if (query) {
-      fetch(`http://localhost:3035/profile?name=${query}`)
+      fetch(`https://shrouded-forest-21138.herokuapp.com/profile?name=${query}`)
         .then((res) => res.json())
         .then(
           (res) => {
