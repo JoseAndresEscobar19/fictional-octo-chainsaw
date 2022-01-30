@@ -96,7 +96,7 @@ export default class Profile extends Component {
     const { name, proficiency } = skill;
     if (name) {
       fetch(
-        `http://localhost:3035/jobs?skill=${name}&proficiency=${proficiency}`
+        `https://shrouded-forest-21138.herokuapp.com/jobs?skill=${name}&proficiency=${proficiency}`
       )
         .then((res) => res.json())
         .then(
