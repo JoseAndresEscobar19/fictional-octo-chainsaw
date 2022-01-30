@@ -1,0 +1,22 @@
+.search {
+  padding: 30px;
+  margin: auto;
+  width: 500px;
+  background-color: #1c1e21;
+  &__form {
+    margin: 20px 0;
+
+    &-input {
+      height: 30px;
+      width: 250px;
+    }
+
+    &-button {
+      height: 30px;
+      margin: 0;
+      border-radius: 0;
+      background-color: #1c1e21;
+      color: #fff;
+    }
+  }
+}

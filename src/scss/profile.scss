@@ -1,0 +1,28 @@
+.container {
+  width: 500px;
+  background-color: #1c1e21;
+  .profile {
+    color: #fff;
+    &-details{
+      &__fullname{
+        margin-bottom: 0;
+      }
+    }
+    &-skill {
+      &__details-name {
+        display: inline-flex;
+        background-color: #383b40;
+        color: #fff;
+        border-radius: 32px;
+        margin: 8px 5px;
+        text-align: center;
+        padding: 8px 12px;
+        cursor: pointer;
+        &:hover {
+          background-color: #fff;
+          color: #383b40;
+        }
+      }
+    }
+  }
+}
